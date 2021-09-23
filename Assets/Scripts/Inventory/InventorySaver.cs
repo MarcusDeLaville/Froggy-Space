@@ -21,7 +21,7 @@ namespace SaveSystem
             }
         }
 
-        public void TrySaveInventory(SaveData data)
+        public void TrySaveInventory(InventorySaveData data)
         {
             try
             {
@@ -29,20 +29,20 @@ namespace SaveSystem
             }
             catch
             {
-                _saveSystem.Save(new SaveData());
+                _saveSystem.Save(new InventorySaveData());
             }
         }
 
-        public SaveData TryLoadInventory()
+        public InventorySaveData TryLoadInventory()
         {
             try
             {
-                var data = _saveSystem.Load();
+                var data = _saveSystem.Load() as InventorySaveData;
                 return data;
             }
             catch
             {
-                return new SaveData();
+                return new InventorySaveData();
             }
         }
     }

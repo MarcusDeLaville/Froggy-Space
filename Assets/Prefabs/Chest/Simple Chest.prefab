@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 4048350346989960583}
   - component: {fileID: 4048350346989960632}
   - component: {fileID: 4048350346989960633}
+  - component: {fileID: 1675990699848986531}
+  - component: {fileID: 5048988024733914578}
   m_Layer: 0
   m_Name: Simple Chest
   m_TagString: Untagged
@@ -181,8 +183,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eceef263b907ef4aaa969048e42ba00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourceSpawner: {fileID: 4048350346989960632}
   _dropDuration: 1
   _offset:
     _downXOffset: 2
     _topXOffset: 1
+--- !u!114 &1675990699848986531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048350346989960577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96eea87ab9467c4a8b1d08a049244f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5048988024733914578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4048350346989960577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e1183afff6a8f4b8183731578e9b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

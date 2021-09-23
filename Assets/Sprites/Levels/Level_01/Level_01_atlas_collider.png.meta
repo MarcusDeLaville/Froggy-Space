@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 8ee40766698514e4aa1fe4b81a57cd6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1168635753323880865
+    second: Level_01_atlas_collider_0
+  - first:
+      213: -3901939783022127930
+    second: Level_01_atlas_collider_1
+  - first:
+      213: -5953554827309134011
+    second: Level_01_atlas_collider_2
+  - first:
+      213: -4570903303425592094
+    second: Level_01_atlas_collider_3
+  - first:
+      213: 7388695284667107806
+    second: Level_01_atlas_collider_4
+  - first:
+      213: -425144672751660514
+    second: Level_01_atlas_collider_5
+  - first:
+      213: -99204235769070786
+    second: Level_01_atlas_collider_6
+  - first:
+      213: 9198618082393775554
+    second: Level_01_atlas_collider_7
+  - first:
+      213: -5110486437661665502
+    second: Level_01_atlas_collider_8
+  - first:
+      213: 3253161002038539375
+    second: Level_01_atlas_collider_9
+  - first:
+      213: -6130288723053843156
+    second: Level_01_atlas_collider_10
+  - first:
+      213: 6430046246502383910
+    second: Level_01_atlas_collider_11
+  - first:
+      213: -708197748236442335
+    second: Level_01_atlas_collider_12
+  - first:
+      213: 2652069883038608954
+    second: Level_01_atlas_collider_13
+  - first:
+      213: -3133860303150748247
+    second: Level_01_atlas_collider_14
+  - first:
+      213: -5748682785892208913
+    second: Level_01_atlas_collider_15
+  - first:
+      213: 3602667205999999149
+    second: Level_01_atlas_collider_16
+  - first:
+      213: 2111649798806393431
+    second: Level_01_atlas_collider_17
+  - first:
+      213: 4727273874056324589
+    second: Level_01_atlas_collider_18
+  - first:
+      213: -5606784188856729566
+    second: Level_01_atlas_collider_19
+  - first:
+      213: -6792807366529374980
+    second: Level_01_atlas_collider_20
+  - first:
+      213: 4294350677752971263
+    second: Level_01_atlas_collider_21
+  - first:
+      213: -6295078390282219143
+    second: Level_01_atlas_collider_22
+  - first:
+      213: -1256822679251032457
+    second: Level_01_atlas_collider_23
+  - first:
+      213: -677112022673767627
+    second: Level_01_atlas_collider_24
+  - first:
+      213: 7293988533975206025
+    second: Level_01_atlas_collider_25
+  - first:
+      213: 6592580367335433332
+    second: Level_01_atlas_collider_26
+  - first:
+      213: 2267034823356811920
+    second: Level_01_atlas_collider_27
+  - first:
+      213: -1231570306104887590
+    second: Level_01_atlas_collider_28
+  - first:
+      213: -416744876490030971
+    second: Level_01_atlas_collider_29
+  - first:
+      213: -2696092932002008932
+    second: Level_01_atlas_collider_30
+  - first:
+      213: -1368517870742027011
+    second: Level_01_atlas_collider_31
+  - first:
+      213: 5977485723749063983
+    second: Level_01_atlas_collider_32
+  - first:
+      213: 997821335521711950
+    second: Level_01_atlas_collider_33
+  - first:
+      213: 2862480963458425822
+    second: Level_01_atlas_collider_34
+  - first:
+      213: 1010193933529435419
+    second: Level_01_atlas_collider_35
+  - first:
+      213: 517289156415658288
+    second: Level_01_atlas_collider_36
+  - first:
+      213: -8297776025528845069
+    second: Level_01_atlas_collider_37
+  - first:
+      213: -7450605749510223747
+    second: Level_01_atlas_collider_38
+  - first:
+      213: 4326089241029529092
+    second: Level_01_atlas_collider_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e1f4b59fb28cfe0800000000000000
+      internalID: -1168635753323880865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c45002d07689d9c0800000000000000
+      internalID: -3901939783022127930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f4d678d69b06da0800000000000000
+      internalID: -5953554827309134011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e478a8c9a3e090c0800000000000000
+      internalID: -4570903303425592094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9cf24e63be98660800000000000000
+      internalID: 7388695284667107806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12dc723c25991af0800000000000000
+      internalID: -425144672751660514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 660
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b35cee54e8f9ef0800000000000000
+      internalID: -99204235769070786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdd099d86e08af70800000000000000
+      internalID: 9198618082393775554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22799b559a7e319b0800000000000000
+      internalID: -5110486437661665502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6439a302bc852d20800000000000000
+      internalID: 3253161002038539375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2deac3d2e6dceaa0800000000000000
+      internalID: -6130288723053843156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621cb1c4efc1c3950800000000000000
+      internalID: 6430046246502383910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_12
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125a2a176e9fb26f0800000000000000
+      internalID: -708197748236442335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_13
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 528
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e2702e18b0ec420800000000000000
+      internalID: 2652069883038608954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad600f78aa4284d0800000000000000
+      internalID: -3133860303150748247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeed7cc6739830b0800000000000000
+      internalID: -5748682785892208913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da834917cbe3ff130800000000000000
+      internalID: 3602667205999999149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_17
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75251e3dd461e4d10800000000000000
+      internalID: 2111649798806393431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5ac13da86aa9140800000000000000
+      internalID: 4727273874056324589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_19
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2200bea7c73b032b0800000000000000
+      internalID: -5606784188856729566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf42c52a0b91bb1a0800000000000000
+      internalID: -6792807366529374980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff7c606039989b30800000000000000
+      internalID: 4294350677752971263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719df98e8363a8a0800000000000000
+      internalID: -6295078390282219143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7766691ae6ede8ee0800000000000000
+      internalID: -1256822679251032457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533426fe33a6a96f0800000000000000
+      internalID: -677112022673767627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9884d5b2de3793560800000000000000
+      internalID: 7293988533975206025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_26
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4742e344aec8d7b50800000000000000
+      internalID: 6592580367335433332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_27
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 264
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a8f9b1920267f10800000000000000
+      internalID: 2267034823356811920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6f2bce45598eee0800000000000000
+      internalID: -1231570306104887590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58009da2ebc673af0800000000000000
+      internalID: -416744876490030971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90349a43cd859ad0800000000000000
+      internalID: -2696092932002008932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4c5ad4f3c020de0800000000000000
+      internalID: -1368517870742027011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d180e789b44f250800000000000000
+      internalID: 5977485723749063983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d31dc739f8dd00800000000000000
+      internalID: 997821335521711950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_34
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 132
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3e14b254399b720800000000000000
+      internalID: 2862480963458425822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dc642c70ee40e00800000000000000
+      internalID: 1010193933529435419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039115e3fb7cd2700800000000000000
+      internalID: 517289156415658288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_37
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcb9941ba068dc80800000000000000
+      internalID: -8297776025528845069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_38
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78c5fabb812a9890800000000000000
+      internalID: -7450605749510223747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_01_atlas_collider_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e443e7e3b590c30800000000000000
+      internalID: 4326089241029529092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

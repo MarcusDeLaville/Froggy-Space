@@ -5,65 +5,68 @@ using TMPro;
 using UnityEngine;
 using Inventory;
 
-public class ResourcePresenter : MonoBehaviour
+namespace Items.UI
 {
-    [SerializeField] private PlayerInventory _playerInventory;
-    [SerializeField] private TextMeshProUGUI _amountOfCoin;
-    [SerializeField] private TextMeshProUGUI _amountOfDiamond;
-
-    private Coroutine _saver;
-    private WaitForSeconds _waitingTime = new WaitForSeconds(3f);
-
-    private void OnEnable()
+    public class ResourcePresenter : MonoBehaviour
     {
-        _playerInventory.ItemAdded += OnItemPicked;
-        _playerInventory.InventoryLoaded += OnInventoryLoad;
-    }
-
-    private void OnDisable()
-    {
-        _playerInventory.ItemAdded -= OnItemPicked;
-        _playerInventory.InventoryLoaded -= OnInventoryLoad;
-    }
-
-    private void OnItemPicked(ResourceData resource, int value)
-    {
-        switch (resource.ResourcePriority)
+        [SerializeField] private PlayerInventory _playerInventory;
+        [SerializeField] private TextMeshProUGUI _amountOfCoin;
+        [SerializeField] private TextMeshProUGUI _amountOfDiamond;
+    
+        private Coroutine _saver;
+        private WaitForSeconds _waitingTime = new WaitForSeconds(3f);
+    
+        private void OnEnable()
         {
-            case 1:
-                _amountOfCoin.text = value.ToString();
-                break;
-            case 2:
-                _amountOfDiamond.text = value.ToString();
-                break;
+            _playerInventory.ItemAdded += OnItemPicked;
+            _playerInventory.InventoryLoaded += OnInventoryLoad;
         }
-
-        if (_saver != null)
+    
+        private void OnDisable()
         {
-            StopCoroutine(_saver);
+            _playerInventory.ItemAdded -= OnItemPicked;
+            _playerInventory.InventoryLoaded -= OnInventoryLoad;
         }
-
-        _saver = StartCoroutine(WaitToSave());
-    }
-
-    private void OnInventoryLoad(Dictionary<ResourceData, int> items)
-    {
-        if (items != null)
+    
+        private void OnItemPicked(ResourceData resource, int value)
         {
-            var keys = items.Keys.ToList();
-            _amountOfCoin.text = items[keys[0]].ToString();
-            _amountOfDiamond.text = items[keys[1]].ToString();
+            switch (resource.ResourcePriority)
+            {
+                case 1:
+                    _amountOfCoin.text = value.ToString();
+                    break;
+                case 2:
+                    _amountOfDiamond.text = value.ToString();
+                    break;
+            }
+    
+            if (_saver != null)
+            {
+                StopCoroutine(_saver);
+            }
+    
+            _saver = StartCoroutine(WaitToSave());
         }
-        else
+    
+        private void OnInventoryLoad(Dictionary<ResourceData, int> items)
         {
-            _amountOfCoin.text = "0";
-            _amountOfDiamond.text = "0";
+            if (items != null)
+            {
+                var keys = items.Keys.ToList();
+                _amountOfCoin.text = items[keys[0]].ToString();
+                _amountOfDiamond.text = items[keys[1]].ToString();
+            }
+            else
+            {
+                _amountOfCoin.text = "0";
+                _amountOfDiamond.text = "0";
+            }
         }
-    }
-
-    private IEnumerator WaitToSave()
-    {
-        yield return _waitingTime;
-        _playerInventory.SaveInventory();
+    
+        private IEnumerator WaitToSave()
+        {
+            yield return _waitingTime;
+            _playerInventory.SaveInventory();
+        }
     }
 }

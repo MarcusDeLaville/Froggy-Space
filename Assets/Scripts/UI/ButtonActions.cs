@@ -7,7 +7,7 @@ namespace UI
     {
         public void LoadLevel(int levelIndex)
         {
-            LevelLoader.LoadLevel(levelIndex);
+            LevelLoader.LoadLevelByIndex(levelIndex);
         }
 
         public void LoadMainMenu()
@@ -19,6 +19,12 @@ namespace UI
         {
             LevelLoader.LoadNextLevel();
         }
+
+        public void LoadNextLevelWithParam()
+        {
+            LevelLoader.LoadNextLevel(new Vector3(10, 5, 0));
+        }
+        
         
         public void LoadPreviousLevel()
         {

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d833b65282d247939c89f423a7f3bb35, type: 3}
+  m_Name: TestWorld
+  m_EditorClassIdentifier: 
+  _levels:
+  - _scenePath: Assets/_Test/Scenes/TestMenu.unity
+    _levelIndex: 0
+    _previousLevelIndex: -1
+    _nextLevelIndex: -1
+    _isLocked: 0
+    _isPassed: 0
+  - _scenePath: Assets/_Test/Scenes/Scene1.unity
+    _levelIndex: 1
+    _previousLevelIndex: -1
+    _nextLevelIndex: 2
+    _isLocked: 1
+    _isPassed: 0
+  - _scenePath: Assets/_Test/Scenes/Scene2.unity
+    _levelIndex: 2
+    _previousLevelIndex: 1
+    _nextLevelIndex: 3
+    _isLocked: 1
+    _isPassed: 0
+  - _scenePath: Assets/_Test/Scenes/Scene3.unity
+    _levelIndex: 3
+    _previousLevelIndex: 2
+    _nextLevelIndex: -1
+    _isLocked: 1
+    _isPassed: 0

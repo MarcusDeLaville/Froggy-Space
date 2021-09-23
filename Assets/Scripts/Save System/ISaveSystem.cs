@@ -3,8 +3,8 @@ namespace SaveSystem
 {
     public interface ISaveSystem
     {
-        void Save(SaveData data);
+        void Save(ISaveData data);
     
-        SaveData Load();
+        ISaveData Load();
     }
 }

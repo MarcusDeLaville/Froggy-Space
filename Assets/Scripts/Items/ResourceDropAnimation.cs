@@ -4,22 +4,27 @@ using UnityEngine;
 
 namespace Items
 {
+    [RequireComponent(typeof(ResourceSpawner))]
     public class ResourceDropAnimation : MonoBehaviour
     {
-        [SerializeField] private ResourceSpawner resourceSpawner;
         [SerializeField] private float _dropDuration;
         [SerializeField] private Offset _offset;
 
-        private List<ResourceViewer> _resources;
+        private ResourceSpawner _resourceSpawner;
+
+        private void Awake()
+        {
+            _resourceSpawner = GetComponent<ResourceSpawner>();
+        }
 
         private void OnEnable()
         {
-            resourceSpawner.Spawned += OnResourcesSpawned;
+            _resourceSpawner.Spawned += OnResourcesSpawned;
         }
 
         private void OnDisable()
         {
-            resourceSpawner.Spawned -= OnResourcesSpawned;
+            _resourceSpawner.Spawned -= OnResourcesSpawned;
         }
 
         private void OnResourcesSpawned(List<ResourceViewer> resources)

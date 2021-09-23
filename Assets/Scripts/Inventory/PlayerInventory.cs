@@ -41,7 +41,7 @@ namespace Inventory
     
         public void SaveInventory()
         {
-            var data = new SaveData(_items);
+            var data = new InventorySaveData(_items);
             _saver.TrySaveInventory(data);
         }
         

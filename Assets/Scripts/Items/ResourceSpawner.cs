@@ -1,35 +1,36 @@
 using System;
 using System.Collections.Generic;
+using Items.Chest;
 using UnityEngine;
 
 namespace Items
 {
-    [RequireComponent(typeof(Chest))]
+    [RequireComponent(typeof(ChestInteraction))]
     [RequireComponent(typeof(ResourceChestSpawner))]
     public class ResourceSpawner : MonoBehaviour
     {
-        private Chest _chest;
+        private ChestInteraction _chestInteraction;
         private ResourceChestSpawner _resourceChestSpawner;
 
         public event Action<List<ResourceViewer>> Spawned;
 
         private void Awake()
         {
-            _chest = GetComponent<Chest>();
+            _chestInteraction = GetComponent<ChestInteraction>();
             _resourceChestSpawner = GetComponent<ResourceChestSpawner>();
         }
 
         private void OnEnable()
         {
-            _chest.Opened += OnChestOpened;
+            _chestInteraction.Opening += OnChestOpening;
         }
-
+        
         private void OnDisable()
         {
-            _chest.Opened -= OnChestOpened;
+            _chestInteraction.Opening -= OnChestOpening;
         }
 
-        private void OnChestOpened()
+        private void OnChestOpening()
         {
             foreach (var resource in _resourceChestSpawner.ResourceObjects)
             {

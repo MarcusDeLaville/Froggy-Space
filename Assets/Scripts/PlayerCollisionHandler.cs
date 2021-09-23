@@ -13,7 +13,9 @@ public class PlayerCollisionHandler : MonoBehaviour
         {
             Picked?.Invoke(resource.Item);
             other.gameObject.SetActive(false);
+            return;
         }
+        
 
         if (other.TryGetComponent(out LevelEndTrigger levelEndTrigger))
         {

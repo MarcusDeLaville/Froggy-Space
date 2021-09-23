@@ -1,4 +1,5 @@
 ﻿using LevelManagment;
+using LevelManagment.Data;
 using UnityEngine;
 
 namespace UnityEditor

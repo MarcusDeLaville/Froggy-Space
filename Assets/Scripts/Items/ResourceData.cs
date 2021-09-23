@@ -1,6 +1,9 @@
 
-[System.Serializable]
-public struct ResourceData
+namespace Items
 {
-    public int ResourcePriority;
+    [System.Serializable]
+    public struct ResourceData
+    {
+        public int ResourcePriority;
+    }
 }

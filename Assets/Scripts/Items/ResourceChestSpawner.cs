@@ -11,6 +11,7 @@ namespace Items
         [SerializeField] private int _minResources = 3;
 
         private List<ResourceViewer> _resourceObjects;
+        private ResourceChestSpawnerContext _context;
     
         // TODO: сделать пул, чтобы спрятать лист
         public List<ResourceViewer> ResourceObjects => _resourceObjects;
@@ -18,15 +19,14 @@ namespace Items
         private void Awake()
         {
             _resourceObjects = new List<ResourceViewer>();
-            var context = new ResourceChestSpawnerContext(_minResources, _maxResources, _resources);
-            SpawnResoures(context);
+            _context = new ResourceChestSpawnerContext(_minResources, _maxResources, _resources);
         }
 
-        private void SpawnResoures(ResourceChestSpawnerContext context)
+        public void SpawnResources()
         {
             foreach (var resource in _resources)
             {
-                if (context.TryGetAmountOfResource(out int value, resource))
+                if (_context.TryGetAmountOfResource(out int value, resource))
                 {
                     for (int i = 0; i < value; i++)
                     {

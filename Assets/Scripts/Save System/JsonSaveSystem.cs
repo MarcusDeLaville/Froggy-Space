@@ -12,7 +12,7 @@ namespace SaveSystem
             _filePath = Application.persistentDataPath + $"/{fileName}.json";
         }
     
-        public void Save(SaveData data)
+        public void Save(ISaveData data)
         {
             var json = JsonUtility.ToJson(data);
             using (var writer = new StreamWriter(_filePath))
@@ -21,7 +21,7 @@ namespace SaveSystem
             }
         }
 
-        public SaveData Load()
+        public ISaveData Load()
         {
             string json = "";
             using (var reader = new StreamReader(_filePath))
@@ -33,12 +33,13 @@ namespace SaveSystem
                 }
             }
 
-            if (string.IsNullOrEmpty(json))
-            {
-                return new SaveData();
-            }
+            // не юзать json вообще, если все таки понадобится, то надо решить эту хуету
+            // if (string.IsNullOrEmpty(json))
+            // {
+            //     return new SaveData();
+            // }
 
-            return JsonUtility.FromJson<SaveData>(json);
+            return JsonUtility.FromJson<ISaveData>(json);
         }
     }
 }
